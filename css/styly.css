@@ -1,0 +1,107 @@
+/* CSS Document */
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+}
+
+#obal {
+  max-width: 960px;
+  margin: auto;
+  border: solid #333, 1px;
+  padding: 20px;
+  background-color: white;
+  color: #333;
+}
+
+#nav {
+  background-color: #222;
+  margin: -20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 1.1em;
+  color: lightgray;
+}
+
+nav a:hover{
+  padding: 19px;
+  text-decoration: none;
+  color: lightgray;
+}
+
+a {
+  color: white;
+  background-color: rgb(0,153,204);
+}
+
+h1 {
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  background-color: rgb(0,153,204);
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+h2, h3 {
+  font-weight: 200; 
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: rgb(102,153,0);
+}
+
+h3 { 
+  font-size: 1.2em;
+  border-bottom: dotted;
+}
+
+p, li {
+  line-height: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+p {
+  text-align: justify;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+/* Nastavte pravidlo pro v�echny tu�n� a mod�e zv�razn�n� texty v odr�k�ch. */
+
+
+
+
+.poznamka{
+  border-left: gray 10px solid;
+  padding-left: 50px;
+  font-size: 90%;
+  font-style: Courier;
+}
+
+footer {
+  color: gray;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 80%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+u{
+    border-bottom: dotted red;
+    text-decoration: none;
+  }
+  
+mark{
+    background-color: lightgreen;
+  }
+
