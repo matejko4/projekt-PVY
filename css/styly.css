@@ -72,9 +72,10 @@ li {
   margin-left: 20px;
 }
 
-/* Nastavte pravidlo pro v�echny tu�n� a mod�e zv�razn�n� texty v odr�k�ch. */
-
-
+b {
+  font-weight: bold;
+  color: rgb(0,153,204);
+}
 
 .poznamka{
   border-left: gray 10px solid;
@@ -93,8 +94,10 @@ footer {
 strong {
   font-weight: bold;
 }
-/* Nastavte pravidla pro zna�ky vlo�en� do textu �vodn�ho odstavce,
-   aby kone�n� vzheld textu odpov�dal p�edloze. */
+
+abbr {
+  text-decoration: dashed underline red;
+}
 
 u{
     border-bottom: dotted red;
